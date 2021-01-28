@@ -1,0 +1,184 @@
+/* Formatação Padrão */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+
+	font-size: 1em;
+	font-family: "Trebuchet MS", "Helvetica", sans-serif;
+	background: #F2F2F2;
+}
+
+span {
+
+	font-size: 0.85em;
+	font-style: italic;
+}
+
+p {
+
+	padding-top: 5px;
+}
+
+h2 {
+
+	color: #315763;
+}
+
+h4 {
+
+	padding: 3px;
+	font-size: 1.2em;
+	color: #0B2161;
+	background: #D8D8D8;
+
+}
+
+ /* Aréa do cabeçalho */
+
+#area-cabeçalho{
+
+	margin-bottom: 5px;
+	text-align: center;
+	background: #5090A3;
+}
+
+#area-logo {
+
+	color: #4C4C4C;
+	font-size: 2.5em;
+	padding: 20px;
+	font-weight: 900;
+}
+
+#formatacao-logo {
+
+	color: white;
+	font-size: 1em;
+	font-style: normal;
+}
+
+#area-menu {
+
+	padding: 20px;
+	padding-bottom: 30px;
+}
+
+
+a.menu:link {
+
+	text-decoration: none;
+	color: white;
+	padding: 8px 10px;
+}
+
+ a.menu:visited {
+
+ 	text-decoration: none;
+ 	color: white;
+ 	padding: 8px 10px;
+ }
+
+  a.menu:hover {
+
+  	background: white;
+  	padding: 8px;
+ 	text-decoration: none;
+ 	color: #5090A3;
+ }
+
+ a.menu:active {
+
+ 	text-decoration: none;
+ }
+
+/* Aréa do conteúdo */
+
+#area-conteudo {
+
+	width: 920px;
+	margin: 0 auto;
+}
+
+#area-postagem {
+
+	width: 640px;
+	float: left;
+}
+
+#area-layout {
+
+	width: 260px;
+	float: right;	
+	margin-top: 10px;	
+}
+
+#borda-layout {
+	border-top: 2px dotted #D8D8D8;
+	margin: 3px 10px;
+
+}
+
+.conteudo-layout {
+	padding: 0px 10px;
+	font-size: 0.90em;
+}
+
+.conteudo-layout2 {
+	padding: 0px 10px;
+}
+
+.postagem {
+
+	padding: 12px;
+	background: white;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.borda-postagem {
+	border-top: 1px solid #E6E6E6;
+	margin: 8px;
+	width: 610px;
+	margin-left: 1px;
+}
+
+.layout {
+	padding: 8px;
+	background: white;
+	margin-bottom: 10px;
+}
+
+a.linkprincipal:link {
+	text-decoration: none;
+	color: #5090A3;
+}
+
+a.linkprincipal:visited, active {
+	text-decoration: none;
+	color: #5090A3;
+}
+
+a.linkprincipal:hover {
+	text-decoration: underline;
+	color: #5090A3;
+}
+
+/* Rodape */
+
+#rodape {
+
+	clear: both;
+	text-align: center;
+	width: 920px;
+	background: #9D9D9D;
+	padding: 20px;
+}
+
+
+
+
+	
